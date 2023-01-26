@@ -1,0 +1,47 @@
+.header {
+  background-color: aliceblue;
+  padding: 5rem;
+  height: 100vh;
+
+  display: flex;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.header__image img {
+  object-position: center 15%;
+}
+.header__content {
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header__content--title {
+  color: #fb5974;
+  line-height: 0.85;
+}
+
+.header__content--link {
+  align-self: flex-start;
+  color: white;
+  background-color: #fb5974;
+  padding: 1rem 2rem;
+}
+.header__content > div:last-child {
+  position: absolute;
+  bottom: 6rem;
+  right: 10rem;
+
+  display: flex;
+}
+
+.header__content > div:last-child i {
+  border: 1px solid #fb5974;
+  padding: 1rem;
+  color: #fb5974;
+  cursor: pointer;
+}
